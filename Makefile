@@ -12,7 +12,7 @@ help:
 	@echo "  make clean    - Remove build artifacts and cache"
 
 check:
-	@echo "Checking documentation..."
+	@echo "Checking documentation (README.md, TINY_MODEL_TRAINING.md)..."
 	@uv run python scripts/check_docs.py README.md TINY_MODEL_TRAINING.md
 
 install:
